@@ -1,0 +1,7 @@
+This project consists of three tasks related to security, Kubernetes scanning, and GoLang application deployment.
+
+The first task is to design a product that scans container images and identifies vulnerabilities. Users should be able to view security findings, understand their severity, and prioritize fixes. The deliverables include a Product Requirements Document (PRD), low-fidelity wireframes, and optional development action items.
+
+The second task is to set up a local Kubernetes cluster and scan it for security vulnerabilities. This involves installing a local cluster using Minikube, K3s, or Kind, running a security scan using Kubescape, and generating a JSON report with the findings. The final deliverable is the JSON file containing the security scan results.
+
+The third task involves developing a simple GoLang web application that displays the current date and time. The application needs to be containerized using Docker and deployed to Kubernetes with two replicas. It should be exposed to the internet using a LoadBalancer service. The main files involved are main.go for the GoLang application, Dockerfile for containerization, deployment.yaml for Kubernetes deployment, and service.yaml for exposing the application. The final deliverables include the GitHub repository for the code, the DockerHub repository for the image, the running Kubernetes deployment, and the public URL of the application.
